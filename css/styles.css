@@ -107,7 +107,7 @@ main {
   background-color: #e5e5e5;
   padding: 2rem;
   border-radius: 10px;
-  text-align: center;   /* ← ONLY ADDITION */
+  text-align: center;
 }
 
 main h2 {
@@ -217,6 +217,18 @@ figcaption {
   margin: 0 auto;
 }
 
+/* ===== ADDED CONTACT SPACING FIX ===== */
+
+#contact h2 {
+  margin-top: 2%;
+}
+
+#contact .map {
+  margin-bottom: 3%;
+}
+
+/* ===== END ADDITION ===== */
+
 /* Style rules for table */
 
 table {
@@ -261,6 +273,13 @@ tr:nth-child(odd) {
 fieldset, input {
   margin-bottom: 2%;
 }
+
+/* ===== ADDED FIELDSET STRUCTURE ===== */
+fieldset {
+  padding: 2%;
+  border: 1px solid #373684;
+}
+/* ===== END ADDITION ===== */
 
 fieldset legend {
   font-weight: bold;
