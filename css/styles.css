@@ -216,6 +216,36 @@ figcaption {
   margin: 0 auto;
 }
 
+/* Style rules for table */
+
+table {
+  border: 1px solid #373684;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 100%;
+}
+
+caption {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 1%;
+}
+
+th, td {
+  border: 1px solid #373684;
+  padding: 2%;
+}
+
+th {
+  background-color: #373684;
+  color: #fff;
+  font-size: 1.15em;
+}
+
+tr:nth-child(odd) {
+  background-color: #b7b7e1;
+}
+
 #contact {
     text-align: center;
 }
@@ -224,6 +254,7 @@ figcaption {
     display: block;
     margin: 0 auto;
 }
+
 /* =========================
    FOOTER
 ========================= */
@@ -277,8 +308,6 @@ footer a {
         height: 450px;
     }
 
-    /* WEEK 7 TABLET GRID */
-
     .grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -325,8 +354,6 @@ footer a {
         margin: 0 2%;
     }
 
-    /* WEEK 7 DESKTOP GRID */
-
     .grid {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -337,6 +364,12 @@ footer a {
 
     figcaption {
         font-size: 1em;
+    }
+
+    /* Desktop Viewport: Style rules for table */
+
+    table {
+        width: 70%;
     }
 }
 
