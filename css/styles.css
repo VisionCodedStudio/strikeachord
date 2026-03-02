@@ -216,7 +216,9 @@ figcaption {
   margin: 0 auto;
 }
 
-/* Style rules for table */
+/* =========================
+   TABLE STYLES
+========================= */
 
 table {
   border: 1px solid #373684;
@@ -236,10 +238,16 @@ th, td {
   padding: 2%;
 }
 
+/* ✅ ALIGNMENT FIX ADDED HERE */
 th {
   background-color: #373684;
   color: #fff;
   font-size: 1.15em;
+  text-align: center;
+}
+
+td {
+  text-align: center;
 }
 
 tr:nth-child(odd) {
@@ -247,15 +255,17 @@ tr:nth-child(odd) {
 }
 
 #contact {
-    text-align: center;
+  text-align: center;
 }
 
 #contact .map {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
-/* Style rules for form elements */
+/* =========================
+   FORM STYLES
+========================= */
 
 fieldset, input {
   margin-bottom: 2%;
@@ -282,6 +292,7 @@ form #submit {
 /* =========================
    FOOTER
 ========================= */
+
 footer {
   text-align: center;
   font-size: 0.75rem;
@@ -294,139 +305,133 @@ footer a {
   text-decoration: none;
 }
 
-/* ============================= */
-/* Media Query for Tablet Viewport */
-/* ============================= */
+/* =========================
+   TABLET VIEWPORT
+========================= */
 
 @media screen and (min-width: 550px), print {
 
-    .tab-desk {
-        display: block;
-    }
+  .tab-desk {
+    display: block;
+  }
 
-    .mobile {
-        display: none;
-    }
+  .mobile {
+    display: none;
+  }
 
-    span.tab-desk {
-        display: inline;
-    }
+  span.tab-desk {
+    display: inline;
+  }
 
-    nav li {
-        border-top: none;
-        display: inline-block;
-        font-size: 1.5em;
-        border-right: 1px solid #e5e9fc;
-    }
+  nav li {
+    border-top: none;
+    display: inline-block;
+    font-size: 1.5em;
+    border-right: 1px solid #e5e9fc;
+  }
 
-    nav li:last-child {
-        border-right: none;
-    }
+  nav li:last-child {
+    border-right: none;
+  }
 
-    nav li a {
-        padding: 0.25em 0.5em;
-    }
+  nav li a {
+    padding: 0.25em 0.5em;
+  }
 
-    .map {
-        width: 500px;
-        height: 450px;
-    }
+  .map {
+    width: 500px;
+    height: 450px;
+  }
 
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 
-    aside {
-        grid-column: 1 / span 2;
-    }
+  aside {
+    grid-column: 1 / span 2;
+  }
 
-    /* Tablet Viewport: Style rule for form element */
-
-    form {
-        width: 70%;
-        margin: 0 auto;
-    }
+  form {
+    width: 70%;
+    margin: 0 auto;
+  }
 
 }
 
-/* ============================= */
-/* Media Query for Desktop Viewport */
-/* ============================= */
+/* =========================
+   DESKTOP VIEWPORT
+========================= */
 
 @media screen and (min-width: 769px), print {
 
-    header {
-        padding: 2%;
-    }
+  header {
+    padding: 2%;
+  }
 
-    nav li a {
-        padding: 0.5em 1.5em;
-    }
+  nav li a {
+    padding: 0.5em 1.5em;
+  }
 
-    nav li a:hover {
-        color: #373684;
-        background-color: #e5e9fc;
-    }
+  nav li a:hover {
+    color: #373684;
+    background-color: #e5e9fc;
+  }
 
-    #info ul {
-        margin-left: 5%;
-    }
+  #info ul {
+    margin-left: 5%;
+  }
 
-    main h3 {
-        font-size: 1.5em;
-    }
+  main h3 {
+    font-size: 1.5em;
+  }
 
-    #piano,
-    #guitar,
-    #violin {
-        width: 29%;
-        float: left;
-        margin: 0 2%;
-    }
+  #piano,
+  #guitar,
+  #violin {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+  }
 
-    .grid {
-        grid-template-columns: repeat(4, 1fr);
-    }
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 
-    aside {
-        grid-column: 1 / span 4;
-    }
+  aside {
+    grid-column: 1 / span 4;
+  }
 
-    figcaption {
-        font-size: 1em;
-    }
+  figcaption {
+    font-size: 1em;
+  }
 
-    /* Desktop Viewport: Style rules for table */
+  table {
+    width: 70%;
+  }
 
-    table {
-        width: 70%;
-    }
+  .form-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+  }
 
-    /* Desktop Viewport: Style rules for form elements */
-
-    .form-grid {
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-gap: 20px;
-    }
-
-    .btn {
-        grid-column: 1 / span 2;
-    }
+  .btn {
+    grid-column: 1 / span 2;
+  }
 
 }
 
-/* ============================= */
-/* Media Query for Print */
-/* ============================= */
+/* =========================
+   PRINT
+========================= */
 
 @media print {
 
-    body {
-        background-color: #fff;
-        color: #000;
-    }
+  body {
+    background-color: #fff;
+    color: #000;
+  }
 
 }
