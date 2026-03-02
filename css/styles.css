@@ -341,6 +341,14 @@ footer a {
     aside {
         grid-column: 1 / span 2;
     }
+
+    /* Tablet Viewport: Style rule for form element */
+
+    form {
+        width: 70%;
+        margin: 0 auto;
+    }
+
 }
 
 /* ============================= */
@@ -395,6 +403,19 @@ footer a {
     table {
         width: 70%;
     }
+
+    /* Desktop Viewport: Style rules for form elements */
+
+    .form-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+
+    .btn {
+        grid-column: 1 / span 2;
+    }
+
 }
 
 /* ============================= */
