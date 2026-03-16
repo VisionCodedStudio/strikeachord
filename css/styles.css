@@ -1,6 +1,6 @@
 /*
 Author: Amir Bennett
-Date: 2026-02-09
+Date: 2026-03-16
 File Name: styles.css
 */
 
@@ -105,6 +105,30 @@ nav li a:hover {
 }
 
 /* =========================
+   MOBILE NAVIGATION (ADDED)
+========================= */
+
+.mobile-nav {
+  background-color: #373684;
+  position: relative;
+}
+
+.mobile-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 3%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.mobile-nav a.menu-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* =========================
    MAIN CONTENT
 ========================= */
 main {
@@ -181,6 +205,7 @@ figcaption {
 #info ul {
   margin-left: 10%;
 }
+
 /* =========================
    ROUND CLASS
 ========================= */
@@ -217,15 +242,15 @@ figcaption {
 }
 
 /* =========================
-   MAP  (UPDATED ONLY HERE)
+   MAP
 ========================= */
 .map {
   border: 5px solid #373684;
   border-radius: 12px;
   width: 90%;
-  height: 350px;        /* Changed from percentage to fixed horizontal height */
+  height: 350px;
   display: block;
-  margin: 0 auto 5%;    /* Added more spacing below map */
+  margin: 0 auto 5%;
 }
 
 /* Style rules for table */
@@ -264,7 +289,7 @@ tr:nth-child(odd) {
 
 #contact .map {
   display: block;
-  margin: 0 auto 5%;   /* Ensures spacing even if overridden */
+  margin: 0 auto 5%;
 }
 
 /* Style rules for form elements */
@@ -296,21 +321,6 @@ form #submit {
   font-size: 1em;
 }
 
-/* =========================
-   FOOTER
-========================= */
-footer {
-  text-align: center;
-  font-size: 0.75rem;
-  padding: 1rem 0;
-  background-color: #ffffff;
-}
-
-footer a {
-  color: #4645a8;
-  text-decoration: none;
-}
-
 /* ============================= */
 /* Media Query for Tablet Viewport */
 /* ============================= */
@@ -327,6 +337,10 @@ footer a {
 
   span.tab-desk {
     display: inline;
+  }
+
+  .mobile-nav {
+    display: none;
   }
 
   nav li {
