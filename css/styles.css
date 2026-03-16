@@ -154,6 +154,29 @@ main p {
 }
 
 /* =========================
+PRIVATE LESSONS SECTION
+========================= */
+
+#info{
+  background:#b7b7e1;
+  padding:2rem;
+  margin-bottom:2rem;
+  text-align:center;
+}
+
+#info ul{
+  list-style-type: disc;
+  margin-left:25px;
+  margin-top:10px;
+  display:inline-block;
+  text-align:left;
+}
+
+#info li{
+  margin-bottom:6px;
+}
+
+/* =========================
 INSTRUCTORS - MOBILE STYLES
 ========================= */
 aside {
