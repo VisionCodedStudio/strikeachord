@@ -321,6 +321,21 @@ form #submit {
   font-size: 1em;
 }
 
+/* =========================
+   FOOTER
+========================= */
+footer {
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 1rem; /* fixed spacing on left and right */
+  background-color: #ffffff;
+}
+
+footer a {
+  color: #4645a8;
+  text-decoration: none;
+}
+
 /* ============================= */
 /* Media Query for Tablet Viewport */
 /* ============================= */
