@@ -77,6 +77,7 @@ MOBILE NAVIGATION
 .mobile-nav{
 background:#373684;
 position:relative;
+height:50px;
 }
 
 .mobile-nav a{
@@ -89,9 +90,10 @@ display:block;
 }
 
 .mobile-nav a.menu-icon{
-position:relative;
-right:10px;
-top:10px;
+display:block;
+position:absolute;
+right:5px;
+top:-45px;
 }
 
 .menu-icon div{
