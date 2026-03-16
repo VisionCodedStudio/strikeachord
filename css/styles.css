@@ -5,7 +5,7 @@ File Name: styles.css
 */
 
 /* =========================
-   CSS RESET
+CSS RESET
 ========================= */
 * {
   margin: 0;
@@ -18,7 +18,7 @@ ul {
 }
 
 /* =========================
-   WEEK 7 SEMANTIC ELEMENT RESET
+WEEK 7 SEMANTIC ELEMENT RESET
 ========================= */
 section,
 aside,
@@ -29,7 +29,7 @@ figcaption {
 }
 
 /* =========================
-   PAGE LAYOUT
+PAGE LAYOUT
 ========================= */
 html, body {
   height: 100%;
@@ -42,7 +42,7 @@ body {
 }
 
 /* =========================
-   HEADER
+HEADER
 ========================= */
 header {
   text-align: center;
@@ -57,7 +57,7 @@ header h1 {
 }
 
 /* =========================
-   NAVIGATION
+NAVIGATION
 ========================= */
 nav {
   background-color: #373684;
@@ -85,7 +85,7 @@ nav li a:hover {
 }
 
 /* =========================
-   HERO IMAGE
+HERO IMAGE
 ========================= */
 #hero img {
   width: 100%;
@@ -94,9 +94,8 @@ nav li a:hover {
 }
 
 /* =========================
-   HIDE tab-desk CLASS
+HIDE tab-desk CLASS
 ========================= */
-
 .tab-desk {
   display: none;
 }
@@ -106,9 +105,8 @@ nav li a:hover {
 }
 
 /* =========================
-   MOBILE NAVIGATION (ADDED)
+MOBILE NAVIGATION
 ========================= */
-
 .mobile-nav {
   background-color: #373684;
   position: relative;
@@ -130,7 +128,7 @@ nav li a:hover {
 }
 
 /* =========================
-   MAIN CONTENT
+MAIN CONTENT
 ========================= */
 main {
   flex: 1;
@@ -156,9 +154,8 @@ main p {
 }
 
 /* =========================
-   INSTRUCTORS - MOBILE STYLES
+INSTRUCTORS - MOBILE STYLES
 ========================= */
-
 aside {
   text-align: center;
   font-size: 1.5em;
@@ -194,9 +191,8 @@ figcaption {
 }
 
 /* =========================
-   INFO SECTION
+INFO SECTION
 ========================= */
-
 #info {
   clear: both;
   text-align: center;
@@ -208,14 +204,14 @@ figcaption {
 }
 
 /* =========================
-   ROUND CLASS
+ROUND CLASS
 ========================= */
 .round {
   border-radius: 8px;
 }
 
 /* =========================
-   CONTACT STYLES
+CONTACT STYLES
 ========================= */
 #contact p {
   text-align: center;
@@ -243,7 +239,7 @@ figcaption {
 }
 
 /* =========================
-   MAP
+MAP
 ========================= */
 .map {
   border: 5px solid #373684;
@@ -254,8 +250,9 @@ figcaption {
   margin: 0 auto 5%;
 }
 
-/* Style rules for table */
-
+/* =========================
+TABLE
+========================= */
 table {
   border: 1px solid #373684;
   border-collapse: collapse;
@@ -293,8 +290,9 @@ tr:nth-child(odd) {
   margin: 0 auto 5%;
 }
 
-/* Style rules for form elements */
-
+/* =========================
+FORM
+========================= */
 fieldset, input {
   margin-bottom: 2%;
 }
@@ -323,44 +321,18 @@ form #submit {
 }
 
 /* =========================
-   FOOTER
+FOOTER
 ========================= */
 footer {
   text-align: center;
   font-size: 0.75rem;
-  padding: 1rem; /* fixed spacing on left and right */
+  padding: 1rem;
   background-color: #ffffff;
 }
 
 footer a {
   color: #4645a8;
   text-decoration: none;
-}
-
-/* =========================
-   PRIVATE LESSONS SECTION
-========================= */
-
-#private-lessons{
-background:#c4c7ea;   /* darker purple like the book */
-padding:20px;
-margin-bottom:20px;
-text-align:left;
-}
-
-#private-lessons h2{
-color:#000;
-margin-bottom:10px;
-}
-
-#private-lessons ul{
-list-style-type:disc;
-margin-left:25px;
-margin-top:10px;
-}
-
-#private-lessons li{
-margin-bottom:6px;
 }
 
 /* ============================= */
