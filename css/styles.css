@@ -341,20 +341,21 @@ footer a {
 ========================= */
 
 #private-lessons{
-background-color:#dfe0f4;
-padding:1rem;
-margin-bottom:1rem;
-border-radius:6px;
+background:#c4c7ea;   /* darker purple like the book */
+padding:20px;
+margin-bottom:20px;
 text-align:left;
 }
 
 #private-lessons h2{
-color:#373684;
-margin-bottom:0.5rem;
+color:#000;
+margin-bottom:10px;
 }
 
 #private-lessons ul{
-margin-left:20px;
+list-style-type:disc;
+margin-left:25px;
+margin-top:10px;
 }
 
 #private-lessons li{
