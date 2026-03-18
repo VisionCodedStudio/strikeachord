@@ -359,7 +359,7 @@ text-decoration:none;
 /* ============================= */
 
 @media screen and (min-width:550px){
-  
+
 .tab-desk{
 display:block;
 }
@@ -415,9 +415,7 @@ form{
 width:70%;
 margin:0 auto;
 }
-
 }
-
 /* ============================= */
 /* DESKTOP MEDIA QUERY */
 /* ============================= */
