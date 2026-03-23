@@ -443,10 +443,11 @@ margin:0 auto;
 
 .copyright{
     float:left;
-    width:65%;
-    text-align:center;  /* ✅ FIX */
+    width:70%;
+    text-align:center;
+    margin-left:15%;   /* 🔥 centers it visually */
 }
-
+    
 } /* CLOSE TABLET */
 
 
