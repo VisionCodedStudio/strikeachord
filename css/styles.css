@@ -359,8 +359,6 @@ footer a{
 
 .social img{
     display:inline-block;
-    width:25px;     /* 🔥 smaller so it fits */
-    margin-left:5px;
 }
 
 /* ============================= */
