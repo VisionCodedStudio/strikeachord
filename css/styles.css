@@ -357,6 +357,13 @@ background:#ffffff;
     padding: 4%;
 }
 
+.social img {
+    display: inline-block;
+    padding: 4%;
+    width: 40px;   /* 🔥 controls size */
+    height: auto;
+}
+
 footer a{
 color:#4645a8;
 text-decoration:none;
@@ -429,14 +436,14 @@ margin:0 auto;
 /* Tablet Viewport: Style rules for footer area */
 
 .copyright {
-    float: left;
-    width: 65%;
+    text-align: center;
+    width: 100%;
 }
 
 .social {
-       float: right;
-       width: 25%;
-   }
+    text-align: center;
+    width: 100%;
+}
 
 } /* ✅ CLOSE TABLET HERE */
 
