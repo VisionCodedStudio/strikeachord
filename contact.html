@@ -1,6 +1,8 @@
-<!-- Date: March 16, 2026 -->
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- Amir' Bennett - March 16, 2026 -->
+
 <head>
 <meta charset="UTF-8">
 
@@ -14,6 +16,7 @@
 
 <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
 <header>
@@ -51,9 +54,9 @@ Strike a Chord
 </ul>
 </nav>
 
-<!-- Hero Image -->
+<!-- ✅ HERO IMAGE FIXED -->
 <div id="hero" class="tab-desk">
-<img src="image/music-notes.png" alt="Colorful music notes">
+<img src="images/music-notes.png" alt="Colorful music notes">
 </div>
 
 <main>
@@ -86,26 +89,27 @@ referrerpolicy="no-referrer-when-downgrade">
 
 </section>
 
-<div id="form">
+<!-- ✅ FORM SECTION (SEMANTIC FIX) -->
+<section id="form">
 
 <h2>Complete the form below and one of our staff members will contact you.</h2>
 
-<form class="form-grid">
+<form class="form-grid" action="#">
 
 <fieldset>
 <legend>Customer Information</legend>
 
 <label for="fName">First Name:</label>
-<input type="text" name="fName" id="fName">
+<input type="text" name="fName" id="fName" required>
 
 <label for="lName">Last Name:</label>
-<input type="text" name="lName" id="lName">
+<input type="text" name="lName" id="lName" required>
 
 <label for="email">Email:</label>
-<input type="email" name="email" id="email">
+<input type="email" name="email" id="email" required>
 
 <label for="phone">Phone:</label>
-<input type="tel" name="phone" id="phone">
+<input type="tel" name="phone" id="phone" required>
 
 </fieldset>
 
@@ -144,7 +148,7 @@ class="btn">
 
 </form>
 
-</div>
+</section>
 
 </main>
 
@@ -157,17 +161,16 @@ class="btn">
 
 <div class="social">
     <a href="https://www.facebook.com" target="_blank">
-       <img src="image/facebook-logo.png" alt="Facebook logo">
+       <img src="images/facebook-logo.png" alt="Facebook logo">
     </a>
 
     <a href="https://www.twitter.com" target="_blank">
-       <img src="image/twitter-logo.png" alt="Twitter logo">    
+       <img src="images/twitter-logo.png" alt="Twitter logo">    
     </a>
 </div>
 
 </footer>
 
-<!-- ✅ KEEP THIS RIGHT HERE -->
 <script src="scripts/script.js"></script>
 
 </body>
