@@ -1,6 +1,6 @@
 /*
 Author: Amir Bennett
-Date: 2026-03-16
+Date: 2026-04-4
 File Name: styles.css
 */
 
@@ -362,9 +362,37 @@ footer a{
     padding: 4%;
 }
 
-/* ============================= */
-/* TABLET MEDIA QUERY */
-/* ============================= */
+/* =========================
+BOOTSTRAP ADDITIONS (FIXED)
+========================= */
+
+.hero {
+  background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url('../images/music-notes.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 120px 0;
+}
+
+.bg-dark-purple {
+  background-color: #373684 !important;
+}
+
+.text-dark-purple {
+  color: #373684;
+}
+
+.welcome {
+  margin-top: 10%;
+}
+
+body {
+  padding-top: 60px;
+}
+
+/* =============================
+TABLET MEDIA QUERY
+============================= */
 
 @media screen and (min-width:550px){
 
@@ -426,8 +454,6 @@ width:70%;
 margin:0 auto;
 }
 
-/* Tablet Viewport: Style rules for footer area */
-
 .copyright {
     float: left;
     width: 65%;
@@ -437,11 +463,11 @@ margin:0 auto;
     float: right;
     width: 25%;
 }
+}
 
-
-/* ============================= */
-/* DESKTOP MEDIA QUERY */
-/* ============================= */
+/* =============================
+DESKTOP MEDIA QUERY
+============================= */
 
 @media screen and (min-width:769px){
 header{
@@ -497,41 +523,15 @@ grid-gap:20px;
 .btn{
 grid-column:1/span 2;
 }
-
 }
 
-@media print{
+/* =========================
+PRINT
+========================= */
 
+@media print{
 body{
 background:#fff;
 color:#000;
 }
-
-/* =========================
-BOOTSTRAP ADDITIONS (LAB)
-========================= */
-
-.hero {
-  background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url('../images/music-notes.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 120px 0;
-}
-
-.bg-dark-purple {
-  background-color: #373684 !important;
-}
-
-.text-dark-purple {
-  color: #373684;
-}
-
-.welcome {
-  margin-top: 10%;
-}
-
-/* Fix spacing because of fixed nav */
-body {
-  padding-top: 60px;
 }
