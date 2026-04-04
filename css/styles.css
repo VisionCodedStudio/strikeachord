@@ -507,4 +507,31 @@ background:#fff;
 color:#000;
 }
 
+/* =========================
+BOOTSTRAP ADDITIONS (LAB)
+========================= */
+
+.hero {
+  background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url('../images/music-notes.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 120px 0;
+}
+
+.bg-dark-purple {
+  background-color: #373684 !important;
+}
+
+.text-dark-purple {
+  color: #373684;
+}
+
+.welcome {
+  margin-top: 10%;
+}
+
+/* Fix spacing because of fixed nav */
+body {
+  padding-top: 60px;
 }
