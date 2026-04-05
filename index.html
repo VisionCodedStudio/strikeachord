@@ -25,7 +25,7 @@
 
 </head>
 
-<body>
+<body class="home-page">
 
 <!-- Bootstrap Navigation bar -->
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
@@ -40,25 +40,11 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ms-auto">
 
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="lessons.html">Lessons</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="instructors.html">Instructors</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="rentals.html">Rentals</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="lessons.html">Lessons</a></li>
+        <li class="nav-item"><a class="nav-link" href="instructors.html">Instructors</a></li>
+        <li class="nav-item"><a class="nav-link" href="rentals.html">Rentals</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 
       </ul>
     </div>
@@ -66,9 +52,9 @@
   </div>
 </nav>
 
-<!-- Header and Hero Image -->
-<header class="jumbotron jumbotron-fluid text-center" style="margin-top:80px;">
-  <div class="container">
+<!-- Header and Hero -->
+<header class="jumbotron jumbotron-fluid text-center hero" style="margin-top:80px;">
+  <div class="container welcome">
     <h1 class="display-3">Welcome to Strike a Chord</h1>
     <a href="#" role="button" class="btn btn-outline-secondary btn-lg text-white bg-dark">
       Try a Free Lesson
@@ -76,7 +62,7 @@
   </div>
 </header>
 
-<!-- Main Content Area -->
+<!-- Main Content -->
 <main class="container-fluid mt-5">
 
   <div class="row text-center">
@@ -115,8 +101,36 @@
 
 </main>
 
+<!-- Footer -->
+<footer class="jumbotron-fluid text-center p-5 bg-dark">
+
+  <div class="container text-white">
+
+    <p>&copy; Copyright 2026. All Rights Reserved.</p>
+
+    <p>
+      <a href="mailto:abennett1385@student.gwinnetttech.edu" class="text-white">
+        abennett1385@student.gwinnetttech.edu
+      </a>
+    </p>
+
+    <a href="https://www.facebook.com" target="_blank">
+      <img src="images/facebook-logo.png" alt="white Facebook logo" class="pe-4">
+    </a>
+
+    <a href="https://twitter.com" target="_blank">
+      <img src="images/twitter-logo.png" alt="white Twitter logo">
+    </a>
+
+  </div>
+
+</footer>
+
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Your Script -->
+<script src="scripts/script.js"></script>
 
 </body>
 </html>
