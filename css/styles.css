@@ -347,10 +347,12 @@ FOOTER
 ========================= */
 
 footer{
-    text-align:center;
-    font-size:0.75rem;
-    padding:1rem;
-    background:#ffffff;
+text-align:center;
+font-size:0.75rem;
+padding:1rem;
+background:#373684;
+color:#ffffff;
+margin-top:auto;
 }
 
 footer a{
